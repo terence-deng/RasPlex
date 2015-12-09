@@ -1,3 +1,2 @@
 #!/bin/bash
-git submodule update
-cd OpenELEC.tv && ln -s ../plex-home-theater
+git submodule init && git submodule update && cd OpenELEC.tv && ln -s ../plex-home-theater
